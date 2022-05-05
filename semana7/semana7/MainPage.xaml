@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="semana7.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="LawnGreen" Padding="24" CornerRadius="0">
+            <Label Text="Semana 7" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        
+        <StackLayout>
+            <Button x:Name="item01" Text="Text To Speech" />
+            <Button x:Name="item02" Text="QR Code" />
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
